@@ -1,0 +1,212 @@
+{
+  "Indonesian": {
+    "SVM": {
+      "accuracy": 0.8849,
+      "f1_macro": 0.8847,
+      "per_class": {
+        "negative": {
+          "precision": 0.8598,
+          "recall": 0.9216,
+          "f1": 0.8896,
+          "support": 153
+        },
+        "positive": {
+          "precision": 0.9143,
+          "recall": 0.8477,
+          "f1": 0.8797,
+          "support": 151
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            141,
+            12
+          ],
+          [
+            23,
+            128
+          ]
+        ]
+      }
+    },
+    "NaiveBayes": {
+      "accuracy": 0.8454,
+      "f1_macro": 0.8449,
+      "per_class": {
+        "negative": {
+          "precision": 0.8955,
+          "recall": 0.7843,
+          "f1": 0.8362,
+          "support": 153
+        },
+        "positive": {
+          "precision": 0.8059,
+          "recall": 0.9073,
+          "f1": 0.8536,
+          "support": 151
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            120,
+            33
+          ],
+          [
+            14,
+            137
+          ]
+        ]
+      }
+    }
+  },
+  "English": {
+    "SVM": {
+      "accuracy": 0.8618,
+      "f1_macro": 0.8612,
+      "per_class": {
+        "negative": {
+          "precision": 0.8246,
+          "recall": 0.9216,
+          "f1": 0.8704,
+          "support": 153
+        },
+        "positive": {
+          "precision": 0.9098,
+          "recall": 0.8013,
+          "f1": 0.8521,
+          "support": 151
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            141,
+            12
+          ],
+          [
+            30,
+            121
+          ]
+        ]
+      }
+    },
+    "NaiveBayes": {
+      "accuracy": 0.8717,
+      "f1_macro": 0.8716,
+      "per_class": {
+        "negative": {
+          "precision": 0.8958,
+          "recall": 0.8431,
+          "f1": 0.8687,
+          "support": 153
+        },
+        "positive": {
+          "precision": 0.85,
+          "recall": 0.9007,
+          "f1": 0.8746,
+          "support": 151
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            129,
+            24
+          ],
+          [
+            15,
+            136
+          ]
+        ]
+      }
+    }
+  },
+  "Malay": {
+    "SVM": {
+      "accuracy": 0.7537,
+      "f1_macro": 0.6897,
+      "per_class": {
+        "negative": {
+          "precision": 0.7692,
+          "recall": 0.4264,
+          "f1": 0.5486,
+          "support": 258
+        },
+        "positive": {
+          "precision": 0.75,
+          "recall": 0.9308,
+          "f1": 0.8307,
+          "support": 477
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            110,
+            148
+          ],
+          [
+            33,
+            444
+          ]
+        ]
+      }
+    },
+    "NaiveBayes": {
+      "accuracy": 0.7211,
+      "f1_macro": 0.6149,
+      "per_class": {
+        "negative": {
+          "precision": 0.7912,
+          "recall": 0.2791,
+          "f1": 0.4126,
+          "support": 258
+        },
+        "positive": {
+          "precision": 0.7112,
+          "recall": 0.9602,
+          "f1": 0.8171,
+          "support": 477
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "positive"
+        ],
+        "matrix": [
+          [
+            72,
+            186
+          ],
+          [
+            19,
+            458
+          ]
+        ]
+      }
+    }
+  }
+}
